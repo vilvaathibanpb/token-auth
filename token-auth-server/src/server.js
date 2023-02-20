@@ -5,7 +5,7 @@ const cors = require('cors');
 const router = require("./router");
 const app = express();
 
-const port = 5000;
+const port = 4000;
 const dbURI = 'mongodb://127.0.0.1:27017/token-auth';
 
 mongoose
